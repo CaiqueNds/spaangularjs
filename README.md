@@ -11,7 +11,7 @@ Eu hospedei a aplicação pelo iis do meu servidor local
 
 Tive que instalar o plugin CORS no navegador porque tive problemas com domínio cruzado, pois minha api ficou hospedada local
 
-### Como funciona ###
+### Como funciona a aplicação? ###
 
 Com a aplicação hospedada a primeira tela que é redirecionada é para de login.
 Porém antes deve ser feito um cadastro
