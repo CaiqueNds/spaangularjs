@@ -16,8 +16,10 @@ Tive que instalar o plugin CORS no navegador porque tive problemas com domínio 
 Com a aplicação hospedada a primeira tela que é redirecionada é a de login.
 Porém antes deve ser feito um cadastro
 
-Após o cadastro realizado o usuário é redirecionado para tela de login onde é validado e gerado o token jwt para acesso a home onde é listado os produtos
+Após o cadastro realizado o usuário é redirecionado para tela de login onde é validado e gerado o token jwt. 
+
+Com o token validado o usuário é enviado para a home onde são listado os produtos
 
 Após 1 minuto se o usuário tentar o refresh da página o mesmo será redirecionado para o login, pois seu token estará expirado.
 
-Deverá fazer o login novamente apra gerar umnjovo token válido
+Deverá fazer o login novamente para gerar um novo token válido
