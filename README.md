@@ -3,7 +3,7 @@
 
 ### Teste para Developer FCAMERA ###
 
-Nessa aplicação eu consumo a minha api para fazer os testes de login com jwt e listagem dos produtosse o token não estiver expirado.
+Nessa aplicação eu consumo a minha api para fazer os testes de login com jwt e listagem dos produtos se o token não estiver expirado.
 
 ### Como eu configurei?###
 
