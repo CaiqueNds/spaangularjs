@@ -1,29 +1,23 @@
-# README #
+# SPA FCAMERA CAIQUE #
 
-This README would normally document whatever steps are necessary to get your application up and running.
 
-### What is this repository for? ###
+### Teste para Developer FCAMERA ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+Nessa aplicação eu consumo a minha api para fazer os testes de login com jwt e listagem dos produtosse o token não estiver expirado.
 
-### How do I get set up? ###
+### Como eu configurei?###
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+Eu hospedei a aplicação pelo iis do meu servidor local
 
-### Contribution guidelines ###
+Tive que instalar o plugin CORS no navegador porque tive problemas com domínio cruzado, pois minha api ficou hospedada local
 
-* Writing tests
-* Code review
-* Other guidelines
+### Como funciona ###
 
-### Who do I talk to? ###
+Com a aplicação hospedada a primeira tela que é redirecionada é para de login.
+Porém antes deve ser feito um cadastro
 
-* Repo owner or admin
-* Other community or team contact
+Após o cadastro realizado o usuário é redirecionado para tela de login onde é validado e gerado o token jwt para acesso a home onde é listado os produtos
+
+Após 1 minuto se o usuário tentar o refresh da página o mesmo será redirecionado para o login, pois seu token estará expirado.
+
+Deverá fazer o login novamente apra gerar umnjovo token válido
