@@ -13,7 +13,7 @@ Tive que instalar o plugin CORS no navegador porque tive problemas com domínio 
 
 ### Como funciona a aplicação? ###
 
-Com a aplicação hospedada a primeira tela que é redirecionada é para de login.
+Com a aplicação hospedada a primeira tela que é redirecionada é a de login.
 Porém antes deve ser feito um cadastro
 
 Após o cadastro realizado o usuário é redirecionado para tela de login onde é validado e gerado o token jwt para acesso a home onde é listado os produtos
