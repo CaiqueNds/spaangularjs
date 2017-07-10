@@ -1,0 +1,12 @@
+<div layout-fill layout="row" layout-align="center center" class="login">
+	<form name="tokenForm">
+		<md-input-container layout="row">
+			<label>Token</label>
+	    	<input ng-model="user.token" type="text" required>
+		</md-input-container>
+		<div layout="row" layout-align="center center">
+			<md-button type="submit" ng-click="tokenForm.$valid && entrar(user)">Entrar</md-button>
+			<md-button ng-href="{{login}}">Login</md-button>
+		</div>
+	</form>
+</div>

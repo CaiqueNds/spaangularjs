@@ -1,0 +1,16 @@
+<div layout-fill layout="row" layout-align="center center" class="login">
+	<form name="loginForm">
+		<md-input-container layout="row">
+			<label>Username</label>
+	    	<input ng-model="user.username" type="text" required>
+		</md-input-container>
+		<md-input-container layout="row">
+			<label>Senha</label>
+	    	<input ng-model="user.senha" type="password" required>
+		</md-input-container>
+		<div layout="row" layout-align="center center">
+			<md-button type="submit" ng-click="loginForm.$valid && login(user)">Login</md-button>
+			<md-button ng-href="{{cadastro}}">Cadastre-se</md-button>
+		</div>
+	</form>
+</div>

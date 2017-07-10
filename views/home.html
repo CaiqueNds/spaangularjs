@@ -1,0 +1,11 @@
+ <md-toolbar class="md-tall md-accent">
+      <h2 class="md-toolbar-tools">
+        <span>Produtos Listados</span>
+      </h2>
+    </md-toolbar>
+ <md-list-item class="md-2-line" ng-repeat="item in produtos" ng-click="null">
+  <div class="md-list-item-text" layout="column">
+        <h3>Nome do Produto: {{ item.nome }}</h3>
+		<h4>Quantidade do Produto: {{ item.quantidade }}</h4>
+  </div>
+</md-list-item>
