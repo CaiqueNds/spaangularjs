@@ -23,3 +23,12 @@ Com o token validado o usuário é enviado para a home onde são listado os prod
 Após 1 minuto se o usuário tentar o refresh da página o mesmo será redirecionado para o login, pois seu token estará expirado.
 
 Deverá fazer o login novamente para gerar um novo token válido
+
+
+### Observação ###
+
+Se a api for hospedada em outro local que não seja localhost... De ser alterado no arquivo config.js a constante que possui a url para a chamada dos serviços
+
+mvc.constant('wsHOST', {
+	url: 'http://localhost:8080/api/'
+});
