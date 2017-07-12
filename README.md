@@ -1,7 +1,7 @@
-# SPA FCAMERA CAIQUE #
+# SPA FCAMARA CAIQUE #
 
 
-### Teste para Developer FCAMERA ###
+### Teste para Developer FCAMARA ###
 
 Nessa aplicação eu consumo a minha api para fazer os testes de login com jwt e listagem dos produtos se o token não estiver expirado.
 
