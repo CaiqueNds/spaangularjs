@@ -1,4 +1,4 @@
-var mvc = angular.module('FCamera', ['ngRoute', 'ngMaterial', 'ngMessages', 'ngStorage']);
+var mvc = angular.module('FCAMARA', ['ngRoute', 'ngMaterial', 'ngMessages', 'ngStorage']);
 	mvc.run(function ($rootScope, $location, usuariosService) {
 	    $rootScope.$on('$routeChangeStart', function (event, next, current) {
 	      if (next.authorize) {
