@@ -9,7 +9,6 @@ Nessa aplicação eu consumo a minha api para fazer os testes de login com jwt e
 
 Eu hospedei a aplicação pelo iis do meu servidor local
 
-Tive que instalar o plugin CORS no navegador porque tive problemas com domínio cruzado, pois minha api ficou hospedada local
 
 ### Como funciona a aplicação? ###
 
