@@ -4,7 +4,7 @@ produtosService.produtos().then(sucesso, erro);
 
 function sucesso(res){
 
-	$scope.produtos = res.data;
+	$scope.produtos = res.data;	
 
 }
 

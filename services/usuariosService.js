@@ -18,7 +18,7 @@ mvc.service("usuariosService", function ($http, wsHOST, $localStorage) {
             data: {
                 username : user.username,
                 password : user.senha
-            },
+            }
         });
     };
 

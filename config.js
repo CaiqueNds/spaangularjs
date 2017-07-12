@@ -42,6 +42,6 @@ mvc.config(function($routeProvider, $locationProvider) {
 
 });
 
-mvc.constant('wsHOST', {
-	url: 'http://localhost:8080/api/'
-});
+	mvc.constant('wsHOST', {
+		url: 'http://localhost:8080/api/'
+	});
